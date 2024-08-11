@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+
+}
+
+html {
+
+    font-family: 'Josefin Sans';
+    font-weight: 900;
+    font-size: 16px;
+
+}
+
+p {
+    line-height: 1.4;
+    font-weight: 700;
+    font-style: italic;
+    color: #F2EDE4;
+    background-color: #30478C;
+    margin: 0;
+
+    width: 65%;
+}
+
+.main {
+    background-image: url(https://t4.ftcdn.net/jpg/03/78/97/59/360_F_378975954_G39M4ptXAjxKy80gbBIEo0wqBkk89gBF.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    margin: 0;
+}

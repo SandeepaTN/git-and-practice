@@ -1,0 +1,128 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+body{
+    padding: 20px;
+    
+}
+h2,h4,p{
+    margin: 0;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+#card
+{
+    width: 60vw;
+    height: 80vh;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+#top-sec{
+    width: 100%;
+    height: 35%;
+    padding: 20px;
+    text-align: center;
+    
+}
+    
+
+#bottom-sec {
+    width: 100%;
+    height: 65%;
+    color: white;
+   
+}
+#bottom-left {
+    display:inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #368d8d;
+    vertical-align: top;
+    padding: 30px;
+}
+#bottom-right {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #55c2c2;
+    vertical-align: top;
+    padding: 20px;
+}
+#top-sec h2{
+    color: #59c5c5;
+    margin-bottom: 20px;
+}
+#top-sec h4{
+    color: rgb(199, 199, 34);
+    margin-bottom: 10px;
+}
+#top-sec p {
+    color:  rgb(212, 205, 221);
+}
+#rava{
+    font-weight: 700;
+    font-size:1.4rem ;
+}
+button{
+    color: white;
+    background-color: yellowgreen;
+    border: none; 
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(143, 227, 16);
+    transform: scale(1.02);
+}
+#bottom-left h4{
+    margin-bottom: 30px;
+}
+#price,#rava{
+    display: inline-block ;
+    margin-bottom: 40px;
+}
+#price{
+    position: relative;
+    top:-1px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    opacity: .9;
+}
+
+@media (max-width:756px){
+   
+    
+        #bottom-left {
+          
+            width: 100%;
+            height: 50%;
+            background-color: #368d8d;
+            vertical-align: top;
+            padding: 30px;
+        }
+    
+        #bottom-right {
+            
+            width: 100%;
+            height: 50%;
+            background-color: #55c2c2;
+            vertical-align: top;
+            padding: 20px;
+        }
+    
+       
+
+}
+    

@@ -1,0 +1,54 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.b-mod {
+    background-color: antiquewhite;
+    border: 3px solid blue;
+    padding: 70px 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+#a1 {
+    border: 2px solid burlywood;
+    height: 200px;
+    width: 400px;
+    background-image: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+
+    background-color: aquamarine;
+    padding: 10px;
+    background-size: 100%;
+    color: #184363;
+
+
+}
+
+.btn {
+    background-color: cornsilk;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(251, 134, 92);
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+.btn:hover{
+    color:goldenrod
+
+}
